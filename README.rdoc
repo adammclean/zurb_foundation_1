@@ -1,0 +1,14 @@
+Springfield Orchestra
+---------------------
+
+*An activity to learn Zurb Foundation*
+
+The Springfield Philharmic Orchestra is building a new site on Rails, and needs
+your help in styling it! Install Zurb Foundation and implement some of its
+features.
+
+##Getting Started
+
+This is a Rails 4.1.2 application. Copy the `springfield-orch` folder to a
+directory outside of the class github, then `cd` into it and run `bundle
+install`, `rake db:create`, `rake db:migrate`, and `rake db:seed`.

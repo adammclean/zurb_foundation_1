@@ -1,0 +1,11 @@
+<% @posts.each do |post| %>
+  <section>
+    <h3><%= post.title %></h3>
+    <div class="hero-image">
+      <%= image_tag post.hero_image.url :large %>
+    </div>
+    <article>
+      <%= post.content.html_safe %>
+    </article>
+  </section>
+<% end %>
